@@ -1,0 +1,23 @@
+@keyframes rotating {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+
+.container{
+    display:flex;
+    align-items: center;
+}
+
+.block{
+    
+    padding: 60px;
+    background: #000;
+}
+.block:hover{
+    animation: rotating 1s linear ;
+}
